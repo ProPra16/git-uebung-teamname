@@ -8,9 +8,16 @@
           alignment="CENTER"
           hgap="10"
           vgap="10">
+
     <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
 
+
     <Button text="Schließen" GridPane.rowIndex="1" GridPane.columnIndex="2" onAction="#handleCloseButton"/>
+
+    <Button text = "Label" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+
+    <Button fx:id="stageBlau" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+
 </GridPane>
